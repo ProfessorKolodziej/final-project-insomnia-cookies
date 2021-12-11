@@ -10,10 +10,29 @@ nav {
 	overflow: hidden;
 }
 
+body {
+	background-color: #402856;
+	text-align: center;
+}
+
 .menu-container {
 	display: block;
 	padding: 3em;
 	background-color: #412155;
+}
+
+title {
+	font-family: congenial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+p {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
 }
 
 .button-container {
@@ -77,12 +96,39 @@ nav .icon {
 		right: 0;
 		top: 0;
 	}
-
+	
 	nav.responsive a {
 		float: none;
 		display: block;
 		text-align: center;
 	}
+}
+
+body {
+	background-color: #402856;
+	color: white;
+	font-family: 'Sofia Pro', sans-serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-family: 'Congenial', sans-serif;
+	font-size: 25px;
+}
+
+h2 {
+	font-family: 'Sofia Pro', sans-serif;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: 'Sofia Pro', sans-serif;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: 'Sofia Pro', sans-serif;
+	font-size: 20px;
 }
 
 .builder {
@@ -127,6 +173,36 @@ nav .icon {
 	margin: 1em 7em 1em 7em;
 	border-radius: 50px;
 	text-align: center;
+}
+
+.ux-button {
+	background-color: #a53196;
+	color: white;
+	padding: 1em 3em 1em 3em;
+	margin: 1em 7em 1em 7em;
+	border-radius: 50px;
+	text-align: center;
+	display: block;
+}
+
+.wireframe-button {
+	background-color: #a53196;
+	color: white;
+	padding: 1em 3em 1em 3em;
+	margin: 1em 7em 1em 7em;
+	border-radius: 50px;
+	text-align: center;
+	display: block;
+}
+
+.proposal-button {
+	background-color: #a53196;
+	color: white;
+	padding: 1em 3em 1em 3em;
+	margin: 1em 7em 1em 7em;
+	border-radius: 50px;
+	text-align: center;
+	display: block;
 }
 
 .next-button-two {

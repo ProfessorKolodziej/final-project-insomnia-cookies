@@ -11,7 +11,9 @@ function transitionStep() {
 	stepTwo.style.display = 'block';
 }
 
-button.addEventListener('click', transitionStep);
+if (button !== null) {
+  button.addEventListener('click', transitionStep);
+}
 
 const buttonTwo = document.querySelector('.next-button-two');
 
@@ -22,7 +24,9 @@ function transitionStepTwo() {
 	stepThree.style.display = 'block';
 }
 
+if (buttonTwo !== null) {
 buttonTwo.addEventListener('click', transitionStepTwo);
+}
 
 const buttonThree = document.querySelector('.next-button-three');
 
@@ -32,8 +36,9 @@ function transitionStepThree() {
 	const stepFour = document.querySelector('.step-four');
 	stepFour.style.display = 'block';
 }
-
+if (buttonThree !== null) {
 buttonThree.addEventListener('click', transitionStepThree);
+}
 
 function chooseBase() {
 	const selected = document.querySelector('input[name="basetype"]:checked');
