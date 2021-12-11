@@ -25,11 +25,3 @@
 // Huh. Wouldn't it be nice if we didn't have to repeat this?
 // With partials, you don't have to. Create a color variables
 // partial and include it at the top.
-
-$blue: #4261ab;
-
-.promotion {
-	background: lighten($blue, 50%);
-	border: 1px solid $blue;
-	padding: 2em;
-}

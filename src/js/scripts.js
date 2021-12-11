@@ -43,6 +43,10 @@ if (buttonThree !== null) {
 function chooseBase() {
 	const selected = document.querySelector('input[name="basetype"]:checked');
 	const cookiebase = document.getElementById('cookiebase');
+	const starbase = document.getElementById('starbase');
+	const heartbase = document.getElementById('heartbase');
+	const gingerbreadbase = document.getElementById('gingerbreadbase');
+	const treebase = document.getElementById('treebase');
 
 	if (selected === null) {
 		return;
@@ -52,14 +56,34 @@ function chooseBase() {
 
 	if (selected.classList.contains('chocolate')) {
 		cookiebase.querySelector('.cls-1').setAttribute('fill', '#49301D');
+		starbase.querySelector('.st0').setAttribute('fill', '#49301D');
+		heartbase.querySelector('.st0').setAttribute('fill', '#49301D');
+		treebase.querySelector('.st0').setAttribute('fill', '#49301D');
+		gingerbreadbase.querySelector('.st0').setAttribute('fill', '#49301D');
 	} else if (selected.classList.contains('snickerdoodle')) {
 		cookiebase.querySelector('.cls-1').setAttribute('fill', '#F6B659');
+		starbase.querySelector('.st0').setAttribute('fill', '#F6B659');
+		heartbase.querySelector('.st0').setAttribute('fill', '#F6B659');
+		treebase.querySelector('.st0').setAttribute('fill', '#F6B659');
+		gingerbreadbase.querySelector('.st0').setAttribute('fill', '#F6B659');
 	} else if (selected.classList.contains('oatmeal')) {
 		cookiebase.querySelector('.cls-1').setAttribute('fill', '#824E29');
+		starbase.querySelector('.st0').setAttribute('fill', '#824E29');
+		heartbase.querySelector('.st0').setAttribute('fill', '#824E29');
+		treebase.querySelector('.st0').setAttribute('fill', '#824E29');
+		gingerbreadbase.querySelector('.st0').setAttribute('fill', '#824E29');
 	} else if (selected.classList.contains('pb')) {
 		cookiebase.querySelector('.cls-1').setAttribute('fill', '#D87D3E');
+		starbase.querySelector('.st0').setAttribute('fill', '#D87D3E');
+		heartbase.querySelector('.st0').setAttribute('fill', '#D87D3E');
+		treebase.querySelector('.st0').setAttribute('fill', '#D87D3E');
+		gingerbreadbase.querySelector('.st0').setAttribute('fill', '#D87D3E');
 	} else {
 		cookiebase.querySelector('.cls-1').setAttribute('fill', '#F6B284');
+		starbase.querySelector('.st0').setAttribute('fill', '#F6B284');
+		heartbase.querySelector('.st0').setAttribute('fill', '#F6B284');
+		treebase.querySelector('.st0').setAttribute('fill', '#F6B284');
+		gingerbreadbase.querySelector('.st0').setAttribute('fill', '#F6B284');
 	}
 }
 
