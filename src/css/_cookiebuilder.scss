@@ -13,6 +13,7 @@ nav {
 body {
 	background-color: #402856;
 	text-align: center;
+	font-family: 'Sofia Pro', sans-serif;
 }
 
 .menu-container {
@@ -96,19 +97,12 @@ nav .icon {
 		right: 0;
 		top: 0;
 	}
-	
+
 	nav.responsive a {
 		float: none;
 		display: block;
 		text-align: center;
 	}
-}
-
-body {
-	background-color: #402856;
-	color: white;
-	font-family: 'Sofia Pro', sans-serif;
-	font-size: 15px;
 }
 
 h1 {
@@ -138,6 +132,8 @@ h4 {
 
 .options {
 	display: inline-block;
+	color: white;
+	font-family: 'Sofia Pro', sans-serif;
 }
 
 .cookie {

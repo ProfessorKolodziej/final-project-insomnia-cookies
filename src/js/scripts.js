@@ -12,7 +12,7 @@ function transitionStep() {
 }
 
 if (button !== null) {
-  button.addEventListener('click', transitionStep);
+	button.addEventListener('click', transitionStep);
 }
 
 const buttonTwo = document.querySelector('.next-button-two');
@@ -25,7 +25,7 @@ function transitionStepTwo() {
 }
 
 if (buttonTwo !== null) {
-buttonTwo.addEventListener('click', transitionStepTwo);
+	buttonTwo.addEventListener('click', transitionStepTwo);
 }
 
 const buttonThree = document.querySelector('.next-button-three');
@@ -37,7 +37,7 @@ function transitionStepThree() {
 	stepFour.style.display = 'block';
 }
 if (buttonThree !== null) {
-buttonThree.addEventListener('click', transitionStepThree);
+	buttonThree.addEventListener('click', transitionStepThree);
 }
 
 function chooseBase() {
@@ -65,7 +65,9 @@ function chooseBase() {
 
 const options = Array.from(document.querySelectorAll('.options'));
 
-options[0].addEventListener('change', chooseBase);
+if (options[0] !== undefined) {
+	options[0].addEventListener('change', chooseBase);
+}
 
 function changeShape() {
 	const selectedshape = document.querySelector('input[name="shapetype"]:checked');
@@ -109,7 +111,9 @@ function changeShape() {
 	}
 }
 
-options[1].addEventListener('change', changeShape);
+if (options[1] !== undefined) {
+	options[1].addEventListener('change', changeShape);
+}
 
 function changeToppings() {
 	const selectedTopping = document.querySelector('input[name="toppingtype"]:checked');
@@ -156,7 +160,9 @@ function changeToppings() {
 	}
 }
 
-options[3].addEventListener('change', changeToppings);
+if (options[3] !== undefined) {
+	options[3].addEventListener('change', changeToppings);
+}
 
 function updateFrosting() {
 	const icingType = document.querySelector('input[name="icingtype"]:checked');
@@ -181,4 +187,6 @@ function updateFrosting() {
 	}
 }
 
-options[2].addEventListener('change', updateFrosting);
+if (options[2] !== undefined) {
+	options[2].addEventListener('change', updateFrosting);
+}
