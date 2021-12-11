@@ -1,6 +1,4 @@
-// Add your scripts here
-
-let userShape = 'circle'; // Set a default shape
+let userShape = 'circle';
 
 const button = document.querySelector('.next-button');
 
@@ -43,10 +41,10 @@ if (buttonThree !== null) {
 function chooseBase() {
 	const selected = document.querySelector('input[name="basetype"]:checked');
 	const cookiebase = document.getElementById('cookiebase');
+	const treebase = document.getElementById('treebase');
 	const starbase = document.getElementById('starbase');
 	const heartbase = document.getElementById('heartbase');
 	const gingerbreadbase = document.getElementById('gingerbreadbase');
-	const treebase = document.getElementById('treebase');
 
 	if (selected === null) {
 		return;
